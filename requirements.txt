@@ -1,0 +1,26 @@
+# ── Core RAG pipeline ────────────────────────────────────────────────
+langchain
+langchain-community
+langchain-huggingface
+langchain-text-splitters
+pypdf
+chromadb
+sentence-transformers
+gradio
+huggingface-hub
+torch
+transformers
+accelerate
+
+# ── Evaluation ───────────────────────────────────────────────────────
+ragas
+datasets
+pandas
+tabulate
+
+# ── Optional: cloud LLM providers ────────────────────────────────────
+# Install whichever providers you plan to use as judge or RAG models.
+# openai
+# langchain-openai
+# anthropic
+# langchain-anthropic
