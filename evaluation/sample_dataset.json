@@ -1,0 +1,54 @@
+{
+  "samples": [
+    {
+      "question": "What is the main contribution of the YOLO object detection framework?",
+      "ground_truth": "YOLO reframes object detection as a single regression problem, predicting bounding boxes and class probabilities directly from full images in one forward pass, enabling real-time detection speeds.",
+      "expected_sources": []
+    },
+    {
+      "question": "How does the self-attention mechanism work in Vision Transformers (ViT)?",
+      "ground_truth": "Vision Transformers split an image into fixed-size non-overlapping patches, embed each patch as a token, then apply multi-head self-attention so every token can attend to every other token, capturing global spatial context.",
+      "expected_sources": []
+    },
+    {
+      "question": "What are the main trade-offs between speed and accuracy in object detection models?",
+      "ground_truth": "Faster models use lightweight backbones and single-stage detection heads but miss small or occluded objects. Accurate models use larger two-stage pipelines with feature pyramids at the cost of higher latency.",
+      "expected_sources": []
+    },
+    {
+      "question": "How do multi-object tracking algorithms handle occlusion?",
+      "ground_truth": "Tracking algorithms combine appearance re-identification embeddings with Kalman filter motion prediction to estimate hidden positions, and use track management grace periods before deleting lost tracks.",
+      "expected_sources": []
+    },
+    {
+      "question": "What is a Feature Pyramid Network (FPN) and what problem does it solve?",
+      "ground_truth": "FPN builds a top-down pathway with lateral connections that merges high-resolution low-level features with semantically rich high-level features, solving multi-scale detection by producing strong representations at every scale.",
+      "expected_sources": []
+    },
+    {
+      "question": "What roles do the classification and regression heads play in anchor-based object detectors?",
+      "ground_truth": "The classification head predicts object category probabilities per anchor while the regression head predicts coordinate offsets to refine the anchor position and size to better fit the target bounding box.",
+      "expected_sources": []
+    },
+    {
+      "question": "How does non-maximum suppression (NMS) work in object detection?",
+      "ground_truth": "NMS iteratively selects the highest-scoring box, suppresses all remaining boxes whose IoU with it exceeds a threshold, and repeats until no boxes remain, eliminating duplicate detections of the same object.",
+      "expected_sources": []
+    },
+    {
+      "question": "What is the difference between one-stage and two-stage object detectors?",
+      "ground_truth": "Two-stage detectors first generate region proposals with an RPN then classify and refine them; one-stage detectors skip the proposal step and predict boxes and classes directly from feature maps in a single forward pass.",
+      "expected_sources": []
+    },
+    {
+      "question": "How is IoU (Intersection over Union) used to evaluate object detection performance?",
+      "ground_truth": "IoU measures the overlap between predicted and ground-truth boxes as the area of intersection divided by the area of union. A detection is counted as correct when its IoU with the matching ground-truth box exceeds a threshold (commonly 0.5).",
+      "expected_sources": []
+    },
+    {
+      "question": "What is the role of data augmentation in training object detection models?",
+      "ground_truth": "Data augmentation — including random cropping, flipping, colour jitter, and mosaic mixing — artificially expands training variety, improving robustness to scale, orientation, and lighting changes and reducing overfitting.",
+      "expected_sources": []
+    }
+  ]
+}
