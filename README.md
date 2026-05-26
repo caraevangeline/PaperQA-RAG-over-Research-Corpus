@@ -125,11 +125,11 @@ The underlying RAG chain uses:
 [RAGAS](https://docs.ragas.io) measures four dimensions of RAG quality:
 
 | Metric | What it measures | Range |
-|---|---|---|
-| **Faithfulness** | Are all answer claims supported by the retrieved context? | 0–1 |
-| **Context Precision** | Are the retrieved chunks relevant to the question? | 0–1 |
-| **Context Recall** | Does the retrieved context cover the ground-truth answer? | 0–1 |
-| **Answer Relevancy** | Does the answer actually address the question? | 0–1 |
+|---|---|-------|
+| **Faithfulness** | Are all answer claims supported by the retrieved context? | 0-1   |
+| **Context Precision** | Are the retrieved chunks relevant to the question? | 0-1   |
+| **Context Recall** | Does the retrieved context cover the ground-truth answer? | 0-1   |
+| **Answer Relevancy** | Does the answer actually address the question? | 0-1   |
 
 RAGAS needs an LLM and embeddings internally. By default it uses OpenAI; use
 `--judge` to route evaluation through any supported model (see below).
