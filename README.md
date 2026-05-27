@@ -62,8 +62,8 @@ Question
 ## Installation
 
 ```bash
-git clone https://github.com/your-org/RAG-Chatbot.git
-cd RAG-Chatbot
+git clone https://github.com/caraevangeline/PaperQA-RAG-over-Research-Corpus
+cd PaperQA-RAG-over-Research-Corpus
 pip install -r requirements.txt
 ```
 
